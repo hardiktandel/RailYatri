@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.railyatri">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        tools:targetApi="q">
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.EnterVerificationCodeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.MobileVerificationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.SignUpSucceedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.ViewProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.TrainListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.LiveStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+        <activity
+            android:name=".Activity.FoodShopActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AddFoodActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.FoodOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+        <activity
+            android:name=".Activity.AddFoodOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.CoolieActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+        <activity
+            android:name=".Activity.BookedCoolieActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+        <activity
+            android:name=".Activity.SelectCoolieActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+        <activity
+            android:name=".Activity.AddCoolieOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.PassTicketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AddPassTicketActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Activity.ShopListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+        <activity
+            android:name=".Activity.FoodCategoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+        <activity
+            android:name=".Activity.FoodListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppActionBarTheme" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.railyatri.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".Service.FirebaseMessageReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

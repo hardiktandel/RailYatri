@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="fill_parent"
+    n1:layout_height="wrap_content"
+    n1:background="@drawable/dialog_background"
+    n1:orientation="vertical">
+
+    <TextView
+        n1:id="@+id/tv_info"
+        n1:layout_width="fill_parent"
+        n1:layout_height="wrap_content"
+        n1:gravity="center"
+        n1:lineSpacingExtra="6dp"
+        n1:padding="20dp"
+        n1:text="@string/delete_dialog"
+        n1:textSize="18sp" />
+
+    <LinearLayout
+        n1:layout_width="fill_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_margin="10dp"
+        n1:weightSum="2.0">
+
+        <Button
+            n1:id="@+id/btn_no"
+            n1:layout_width="0.0dip"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="bottom"
+            n1:layout_weight="1.0"
+            n1:background="@drawable/dialog_button_background"
+            n1:text="No"
+            n1:textAllCaps="false"
+            n1:textColor="@color/white"
+            n1:textSize="18sp" />
+
+        <Button
+            n1:id="@+id/btn_yes"
+            n1:layout_width="0.0dip"
+            n1:layout_height="wrap_content"
+            n1:layout_gravity="bottom"
+            n1:layout_marginStart="5dp"
+            n1:layout_weight="1.0"
+            n1:background="@drawable/dialog_button_background"
+            n1:text="Yes"
+            n1:textAllCaps="false"
+            n1:textColor="@color/white"
+            n1:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

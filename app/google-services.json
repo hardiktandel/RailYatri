@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "533623325675",
+    "firebase_url": "https://e-rail-da69b.firebaseio.com",
+    "project_id": "e-rail-da69b",
+    "storage_bucket": "e-rail-da69b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533623325675:android:4216e074234b66e6794fae",
+        "android_client_info": {
+          "package_name": "com.example.railyatri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533623325675-maenenu068g5i6h1ku9spvpaf6nf8viq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhTchvRgWusQR8o5xnm1FDlxMB-P3A9h4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533623325675-maenenu068g5i6h1ku9spvpaf6nf8viq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

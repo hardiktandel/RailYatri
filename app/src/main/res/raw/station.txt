@@ -1,0 +1,63 @@
+Ahmedabad Junction-ADI
+Maninagar-MAM
+Vatva-VTA
+Geratpur-GER
+Barejadi Nandej-BJD
+Kanij-KANJ
+Nenpur-NEP
+Mahemdavad Kheda Road-MHD
+Gothaj-GTE
+Nadiad Junction-ND
+Utarsanda-UTD
+Kanjari Boriyavi Junction-KBRV
+Anand Junction-ANND
+Vadod-VXD
+Adas Road-ADD
+Vasad Junction-VDA
+Nandesari-NDR
+Ranoli-RNO
+Bajva-BJW
+Vadodara Junction-BRC
+Vishvamitri-VS
+Makarpura-MPR
+Varnama-VRM
+Itola-ITA
+Kashipura Sarar-KSPR
+Miyagam Karjan Junction-MYG
+Lakodra Dethan-LKD
+Palej-PLJ
+Varediya-VRE
+Nabipur-NIU
+Chavaj-CVJ
+Bharuch Junction-BH
+Ankleshwar Junction-AKV
+Panoli-PAO
+Hathuran-HAT
+Kosamba Junction-KSB
+Kim-KIM
+Kudsad-KDSD
+Sayan-SYN
+Gothangam-GTX
+Kosad-KSE
+Utran-URN
+Surat-ST
+Udhana Junction-UDN
+Bhestan-BHET
+Sachin-SCH
+Maroli-MRL
+Navsari-NVS
+Gandhi Smriti-GNST
+Vedchha-VDH
+Ancheli-ACL
+Amalsad-AML
+Billimora Junction-BIM
+Joravasan-JRS
+Dungri-DGI
+Valsad-BL
+Atul-ATUL
+Pardi-PAD
+Udvada-UVD
+Bagwada-BAGD
+Vapi-VAPI
+Karambeli-KEB
+Bhilad-BLD

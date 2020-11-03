@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="Food Shop" />
+        <item
+            android:id="@+id/nav_food_order"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="Food Orders" />
+        <item
+            android:id="@+id/nav_coolie"
+            android:icon="@drawable/bag"
+            android:title="Coolie" />
+        <item
+            android:id="@+id/nav_booked_coolie"
+            android:icon="@drawable/coolie"
+            android:title="Booking Coolie" />
+        <item
+            android:id="@+id/nav_pass"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title="Pass And Ticket" />
+    </group>
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Log Out" />
+
+</menu>
