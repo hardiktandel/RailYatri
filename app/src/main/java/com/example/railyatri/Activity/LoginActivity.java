@@ -128,6 +128,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onResponse(@NonNull Call<LoginModel> call, @NonNull Response<LoginModel> response) {
 
                 utils.stopProgressDialog();
+//                if (response.isSuccessful()) {
                 try {
                     assert response.body() != null;
                     if (response.body().getResult() == 200) {
@@ -156,6 +157,10 @@ public class LoginActivity extends AppCompatActivity {
                 } catch (Exception e) {
                     Toast.makeText(activity, "Please Try Again", Toast.LENGTH_SHORT).show();
                 }
+//                } else {
+//                    ApiErrorModel apiError = ErrorUtils.parseError(response);
+//                    Toast.makeText(activity, apiError.getMessage(), Toast.LENGTH_SHORT).show();
+//                }
             }
 
             @Override

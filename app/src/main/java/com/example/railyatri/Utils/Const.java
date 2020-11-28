@@ -2,7 +2,7 @@ package com.example.railyatri.Utils;
 
 public class Const {
     public static String API_KEY = "3928366389fe0a43f315b6c3f315136b";
-    public static String URL = "http://192.168.1.106/Train/";
+    public static String URL = "http://192.168.1.102/Train/";
     //    public static String URL = "http://192.168.43.14/Train/";
     public static final int CAPTURE_IMAGE_INTENT = 1;
     public static final int CHOOSE_PHOTO_INTENT = 2;
